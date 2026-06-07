@@ -1,0 +1,336 @@
+.workspace-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  min-width: 0;
+}
+
+.workspace-hero {
+  position: relative;
+  z-index: 1;
+}
+
+.workspace-hero-copy {
+  max-width: 52rem;
+}
+
+.workspace-hero-copy .display-title {
+  margin-top: 1.5rem;
+}
+
+.workspace-hero-copy .page-text {
+  margin-top: 1.25rem;
+  max-width: 44rem;
+  color: #94a3b8;
+  line-height: 1.85;
+}
+
+.workspace-hero-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.workspace-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  min-width: 0;
+}
+
+.workspace-sources-panel,
+.workspace-chat-panel,
+.workspace-composer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-width: 0;
+}
+
+.workspace-panel-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.workspace-panel-title {
+  margin-top: 0.7rem;
+  color: white;
+  font-size: 1.45rem;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.workspace-panel-copy {
+  color: #94a3b8;
+  font-size: 0.92rem;
+  line-height: 1.75;
+}
+
+.workspace-source-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem 1.5rem;
+  align-items: flex-end;
+  background: rgba(17, 17, 19, 0.88);
+  backdrop-filter: blur(14px);
+  padding-bottom: 0.25rem;
+}
+
+.workspace-source-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-end;
+}
+
+.workspace-active-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  min-width: min(22rem, 100%);
+}
+
+.workspace-source-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.9rem;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  padding-bottom: 0.35rem;
+}
+
+.workspace-source-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 0 0 min(22rem, calc(100vw - 6rem));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1.25rem;
+  background:
+    radial-gradient(circle at top left, rgba(129, 140, 248, 0.08), transparent 34%),
+    linear-gradient(180deg, rgba(17, 17, 19, 0.96), rgba(12, 12, 16, 0.98));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.04),
+    0 18px 38px rgba(0, 0, 0, 0.16);
+  padding: 1rem;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.workspace-source-card:hover,
+.workspace-source-card-selected {
+  transform: translateY(-1px);
+  border-color: rgba(99, 102, 241, 0.28);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.05),
+    0 22px 46px rgba(0, 0, 0, 0.2);
+}
+
+.workspace-source-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.workspace-source-title {
+  color: #f8fafc;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.workspace-source-meta {
+  margin-top: 0.35rem;
+  color: #94a3b8;
+  font-size: 0.84rem;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.workspace-source-tags,
+.workspace-target-pills,
+.workspace-result-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.workspace-source-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  align-items: center;
+}
+
+.workspace-source-links a,
+.workspace-inline-link {
+  border: none;
+  background: transparent;
+  color: #c7d2fe;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-size: 0.86rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0;
+}
+
+.workspace-source-links a:hover,
+.workspace-inline-link:hover {
+  color: #e0e7ff;
+}
+
+.workspace-pill-active {
+  border-color: rgba(99, 102, 241, 0.28);
+  background: rgba(79, 70, 229, 0.14);
+  color: #c7d2fe;
+}
+
+.workspace-message-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-height: 32rem;
+  max-height: 68vh;
+  min-width: 0;
+  max-width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  padding-right: 0.25rem;
+}
+
+.workspace-warning-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.workspace-result-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.workspace-result-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1.1rem;
+  background: rgba(255, 255, 255, 0.02);
+  padding: 1rem;
+}
+
+.workspace-result-card-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.workspace-result-card-head > :first-child {
+  flex: 1 1 16rem;
+  min-width: 0;
+}
+
+.workspace-result-title {
+  color: #f8fafc;
+  font-size: 0.98rem;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.workspace-result-meta {
+  margin-top: 0.35rem;
+  color: #94a3b8;
+  font-size: 0.82rem;
+  overflow-wrap: anywhere;
+}
+
+.workspace-composer {
+  position: sticky;
+  bottom: 0;
+  z-index: 7;
+}
+
+.workspace-chat-panel .chat-bubble {
+  max-width: min(54rem, 100%);
+}
+
+.workspace-result-card .code-block {
+  max-height: min(32rem, 52vh);
+}
+
+.workspace-empty {
+  text-align: center;
+}
+
+.workspace-empty p:first-child {
+  color: white;
+  font-size: 1.02rem;
+  font-weight: 600;
+}
+
+.workspace-empty p:last-child {
+  margin-top: 0.45rem;
+  color: #94a3b8;
+  font-size: 0.92rem;
+}
+
+@media (min-width: 1200px) {
+  .workspace-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 1.5rem;
+  }
+
+  .workspace-hero-pills {
+    justify-content: flex-end;
+    margin-top: 0;
+    max-width: 26rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .workspace-source-card {
+    flex-basis: min(20rem, calc(100vw - 5rem));
+  }
+}
+
+@media (max-width: 768px) {
+  .workspace-source-toolbar,
+  .workspace-panel-head,
+  .workspace-source-head,
+  .workspace-result-card-head {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .workspace-source-controls,
+  .workspace-active-block {
+    width: 100%;
+  }
+
+  .workspace-source-card {
+    flex-basis: min(18rem, calc(100vw - 4rem));
+  }
+}

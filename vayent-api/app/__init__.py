@@ -1,0 +1,1 @@
+"""Vayent application package."""

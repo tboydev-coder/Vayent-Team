@@ -1,0 +1,94 @@
+2026-05-15 00:17:09,800 | INFO     | app.main | req=- | user=- | username=- | email=- | method=- | path=- | ip=- | Shutting down Vayent API...
+2026-05-15 00:17:10,191 | INFO     | app.database | req=- | user=- | username=- | email=- | method=- | path=- | ip=- | Database connections closed
+2026-05-15 00:17:10,194 | INFO     | app.main | req=- | user=- | username=- | email=- | method=- | path=- | ip=- | Database connections closed
+2026-05-15 00:20:55,454 | INFO     | app.main | req=- | user=- | username=- | email=- | method=- | path=- | ip=- | Starting Vayent API...
+2026-05-15 00:20:55,708 | INFO     | app.database | req=- | user=- | username=- | email=- | method=- | path=- | ip=- | Database tables ensured via SQLAlchemy metadata
+2026-05-15 00:20:55,709 | INFO     | app.database | req=- | user=- | username=- | email=- | method=- | path=- | ip=- | Database initialized successfully
+2026-05-15 00:20:55,709 | INFO     | app.main | req=- | user=- | username=- | email=- | method=- | path=- | ip=- | Database initialized
+2026-05-15 00:26:29,320 | INFO     | app.main | req=- | user=- | username=- | email=- | method=- | path=- | ip=- | Shutting down Vayent API...
+2026-05-15 00:26:29,336 | INFO     | app.database | req=- | user=- | username=- | email=- | method=- | path=- | ip=- | Database connections closed
+2026-05-15 00:26:29,339 | INFO     | app.main | req=- | user=- | username=- | email=- | method=- | path=- | ip=- | Database connections closed
+2026-05-17 23:02:24,143 [INFO] app.db_connectors.connector req=- user=- method=- path=-: PostgreSQL server rejected an unencrypted connection; retrying with required TLS
+2026-05-17 23:23:50,963 [INFO] app.db_connectors.connector req=- user=- method=- path=-: PostgreSQL server rejected an unencrypted connection; retrying with required TLS
+2026-05-17 23:24:37,239 [INFO] app.db_connectors.connector req=- user=- method=- path=-: PostgreSQL server rejected an unencrypted connection; retrying with required TLS
+2026-05-22 09:00:19,739 [INFO] app.db_connectors.connector req=- user=- method=- path=-: PostgreSQL server rejected an unencrypted connection; retrying with required TLS
+2026-05-22 09:08:14,051 [INFO] app.db_connectors.connector req=- user=- method=- path=-: PostgreSQL server rejected an unencrypted connection; retrying with required TLS
+2026-05-22 10:25:48,239 [INFO] app.db_connectors.connector req=- user=- method=- path=-: PostgreSQL server rejected an unencrypted connection; retrying with required TLS
+2026-05-22 10:45:38,240 [INFO] app.db_connectors.connector req=- user=- method=- path=-: PostgreSQL server rejected an unencrypted connection; retrying with required TLS
+2026-05-22 11:25:00,985 [WARNING] asyncio req=- user=- method=- path=-: Executing <Task finished name='Task-113' coro=<MySQLConnectorTests.test_get_schema_avoids_unsupported_timeout_kwargs() done, defined at C:\Users\C\Desktop\Projects\relix app\vayent-api\tests\test_mysql_connector.py:82> result=None created at C:\Users\C\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py:100> took 0.104 seconds
+2026-05-22 11:25:01,310 [INFO] app.db_connectors.connector req=- user=- method=- path=-: PostgreSQL server rejected an unencrypted connection; retrying with required TLS
+2026-05-22 17:57:27,010 [INFO] app.db_connectors.connector req=- user=- method=- path=-: PostgreSQL server rejected an unencrypted connection; retrying with required TLS
+2026-05-22 17:58:46,485 [INFO] app.db_connectors.connector req=- user=- method=- path=-: PostgreSQL server rejected an unencrypted connection; retrying with required TLS
+2026-05-26 15:10:49,493 [WARNING] asyncio req=- user=- method=- path=-: Executing <Task finished name='Task-121' coro=<MySQLConnectorTests.test_get_schema_avoids_unsupported_timeout_kwargs() done, defined at C:\Users\C\Desktop\Projects\relix app\vayent-api\tests\test_mysql_connector.py:82> result=None created at C:\Users\C\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py:100> took 0.205 seconds
+2026-05-26 15:10:49,665 [INFO] app.db_connectors.connector req=- user=- method=- path=-: PostgreSQL server rejected an unencrypted connection; retrying with required TLS
+2026-05-26 15:45:31,108 [INFO] app.db_connectors.connector req=- user=- method=- path=-: PostgreSQL server rejected an unencrypted connection; retrying with required TLS
+2026-06-03 20:56:03,780 [INFO] app.db_connectors.connector req=- user=- method=- path=-: PostgreSQL server rejected an unencrypted connection; retrying with required TLS
+2026-06-04 22:44:27,802 [INFO] app.main req=- user=- method=- path=-: Starting Vayent API...
+2026-06-04 22:45:28,750 [INFO] app.database req=- user=- method=- path=-: Database tables ensured via SQLAlchemy metadata
+2026-06-04 22:45:29,021 [INFO] app.database req=- user=- method=- path=-: Database initialized successfully
+2026-06-04 22:45:29,021 [INFO] app.main req=- user=- method=- path=-: Database initialized
+2026-06-04 22:46:19,757 [INFO] app.main req=- user=- method=- path=-: Shutting down Vayent API...
+2026-06-04 22:46:21,326 [INFO] app.database req=- user=- method=- path=-: Database connections closed
+2026-06-04 22:46:21,337 [INFO] app.main req=- user=- method=- path=-: Database connections closed
+2026-06-05 22:44:01,965 [INFO] app.main req=- user=- method=- path=-: Starting Vayent API...
+2026-06-05 22:45:19,887 [INFO] app.database req=- user=- method=- path=-: Database tables ensured via SQLAlchemy metadata
+2026-06-05 22:45:20,201 [INFO] app.database req=- user=- method=- path=-: Database initialized successfully
+2026-06-05 22:45:20,201 [INFO] app.main req=- user=- method=- path=-: Database initialized
+2026-06-05 22:46:22,716 [INFO] app.request req=574f68994edf user=- method=GET path=/: Request completed with status 400 in 0ms
+2026-06-05 22:46:38,708 [INFO] app.request req=e5801b2b1361 user=- method=GET path=/: Request completed with status 400 in 0ms
+2026-06-05 22:47:39,242 [INFO] app.request req=e33b9bdf7925 user=- method=GET path=/: Request completed with status 200 in 3ms
+2026-06-05 22:48:21,408 [INFO] app.main req=- user=- method=- path=-: Starting Vayent API...
+2026-06-05 22:49:36,932 [INFO] app.database req=- user=- method=- path=-: Database tables ensured via SQLAlchemy metadata
+2026-06-05 22:49:37,894 [INFO] app.database req=- user=- method=- path=-: Database initialized successfully
+2026-06-05 22:49:37,894 [INFO] app.main req=- user=- method=- path=-: Database initialized
+2026-06-05 22:49:46,767 [INFO] app.request req=301c76551965 user=- method=GET path=/: Request completed with status 400 in 1ms
+2026-06-05 22:52:32,257 [INFO] app.main req=- user=- method=- path=-: Shutting down Vayent API...
+2026-06-05 22:52:32,260 [INFO] app.database req=- user=- method=- path=-: Database connections closed
+2026-06-05 22:52:32,260 [INFO] app.main req=- user=- method=- path=-: Database connections closed
+2026-06-05 22:52:54,206 [INFO] app.main req=- user=- method=- path=-: Starting Vayent API...
+2026-06-05 22:54:20,647 [INFO] app.database req=- user=- method=- path=-: Database tables ensured via SQLAlchemy metadata
+2026-06-05 22:54:21,095 [INFO] app.database req=- user=- method=- path=-: Database initialized successfully
+2026-06-05 22:54:21,099 [INFO] app.main req=- user=- method=- path=-: Database initialized
+2026-06-05 23:25:32,413 [INFO] app.main req=- user=- method=- path=-: Shutting down Vayent API...
+2026-06-05 23:25:32,434 [INFO] app.database req=- user=- method=- path=-: Database connections closed
+2026-06-05 23:25:32,447 [INFO] app.main req=- user=- method=- path=-: Database connections closed
+2026-06-05 23:25:54,478 [INFO] app.main req=- user=- method=- path=-: Starting Vayent API...
+2026-06-05 23:27:27,976 [INFO] app.database req=- user=- method=- path=-: Database tables ensured via SQLAlchemy metadata
+2026-06-05 23:27:30,299 [INFO] app.database req=- user=- method=- path=-: Database initialized successfully
+2026-06-05 23:27:30,338 [INFO] app.main req=- user=- method=- path=-: Database initialized
+2026-06-05 23:41:10,343 [INFO] app.main req=- user=- method=- path=-: Shutting down Vayent API...
+2026-06-05 23:41:10,790 [INFO] app.database req=- user=- method=- path=-: Database connections closed
+2026-06-05 23:41:10,977 [INFO] app.main req=- user=- method=- path=-: Database connections closed
+2026-06-05 23:41:33,245 [INFO] app.main req=- user=- method=- path=-: Starting Vayent API...
+2026-06-05 23:43:00,794 [INFO] app.database req=- user=- method=- path=-: Database tables ensured via SQLAlchemy metadata
+2026-06-05 23:43:01,527 [INFO] app.database req=- user=- method=- path=-: Database initialized successfully
+2026-06-05 23:43:01,542 [INFO] app.main req=- user=- method=- path=-: Database initialized
+2026-06-05 23:43:01,843 [INFO] app.main req=- user=- method=- path=-: Shutting down Vayent API...
+2026-06-05 23:43:04,094 [INFO] app.database req=- user=- method=- path=-: Database connections closed
+2026-06-05 23:43:04,095 [INFO] app.main req=- user=- method=- path=-: Database connections closed
+2026-06-05 23:43:12,621 [INFO] app.main req=- user=- method=- path=-: Starting Vayent API...
+2026-06-05 23:44:42,325 [INFO] app.database req=- user=- method=- path=-: Database tables ensured via SQLAlchemy metadata
+2026-06-05 23:44:45,176 [INFO] app.database req=- user=- method=- path=-: Database initialized successfully
+2026-06-05 23:44:45,178 [INFO] app.main req=- user=- method=- path=-: Database initialized
+2026-06-05 23:47:17,052 [WARNING] asyncio req=- user=- method=- path=-: Executing <Task finished name='Task-121' coro=<MySQLConnectorTests.test_get_schema_avoids_unsupported_timeout_kwargs() done, defined at C:\Users\C\Desktop\Projects\relix app\vayent-api\tests\test_mysql_connector.py:82> result=None created at C:\Users\C\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py:100> took 0.105 seconds
+2026-06-05 23:47:17,304 [INFO] app.db_connectors.connector req=- user=- method=- path=-: PostgreSQL server rejected an unencrypted connection; retrying with required TLS
+2026-06-05 23:48:06,193 [INFO] app.main req=- user=- method=- path=-: Shutting down Vayent API...
+2026-06-05 23:48:06,196 [INFO] app.database req=- user=- method=- path=-: Database connections closed
+2026-06-05 23:48:06,197 [INFO] app.main req=- user=- method=- path=-: Database connections closed
+2026-06-05 23:48:36,999 [INFO] app.main req=- user=- method=- path=-: Starting Vayent API...
+2026-06-05 23:50:20,823 [INFO] app.database req=- user=- method=- path=-: Database tables ensured via SQLAlchemy metadata
+2026-06-05 23:50:21,161 [INFO] app.database req=- user=- method=- path=-: Database initialized successfully
+2026-06-05 23:50:21,194 [INFO] app.main req=- user=- method=- path=-: Database initialized
+2026-06-06 12:31:39,882 [WARNING] asyncio req=- user=- method=- path=-: Executing <Task finished name='Task-121' coro=<MySQLConnectorTests.test_get_schema_avoids_unsupported_timeout_kwargs() done, defined at C:\Users\C\Desktop\Projects\relix app\vayent-api\tests\test_mysql_connector.py:82> result=None created at C:\Users\C\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py:100> took 0.139 seconds
+2026-06-06 12:31:40,061 [INFO] app.db_connectors.connector req=- user=- method=- path=-: PostgreSQL server rejected an unencrypted connection; retrying with required TLS
+2026-06-06 12:31:40,163 [WARNING] asyncio req=- user=- method=- path=-: Executing <Task finished name='Task-131' coro=<PostgreSQLConnectorTests.test_plaintext_rejection_retries_with_required_tls() done, defined at C:\Users\C\Desktop\Projects\relix app\vayent-api\tests\test_postgresql_connector.py:64> result=None created at C:\Users\C\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py:100> took 0.103 seconds
+2026-06-06 19:11:49,714 [INFO] app.main req=- user=- method=- path=-: Shutting down Vayent API...
+2026-06-06 19:11:50,010 [INFO] app.database req=- user=- method=- path=-: Database connections closed
+2026-06-06 19:11:50,010 [INFO] app.main req=- user=- method=- path=-: Database connections closed
+2026-06-06 19:12:36,137 [INFO] app.main req=- user=- method=- path=-: Starting Vayent API...
+2026-06-06 19:14:36,460 [INFO] app.database req=- user=- method=- path=-: Database tables ensured via SQLAlchemy metadata
+2026-06-06 19:14:36,803 [INFO] app.database req=- user=- method=- path=-: Database initialized successfully
+2026-06-06 19:14:36,804 [INFO] app.main req=- user=- method=- path=-: Database initialized
+2026-06-07 15:00:13,984 [INFO] app.main req=- user=- method=- path=-: Starting Vayent API...
+2026-06-07 15:00:14,880 [WARNING] app.database req=- user=- method=- path=-: Database initialization failed for postgresql+asyncpg://vayent_db_user:***@dpg-d8hcor0jo6nc738tfe0g-a.oregon-postgres.render.com/vayent_db: [WinError 5] Access is denied
+2026-06-07 15:00:14,882 [ERROR] app.main req=- user=- method=- path=-: Failed to initialize database: [WinError 5] Access is denied
